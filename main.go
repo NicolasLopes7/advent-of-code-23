@@ -5,6 +5,7 @@ import (
 	"os"
 
 	day1 "github.com/nicolaslopes7/advent-of-code-23/day-1"
+	day2 "github.com/nicolaslopes7/advent-of-code-23/day-2"
 )
 
 func main() {
@@ -19,6 +20,8 @@ func main() {
 	switch day {
 	case "day-1":
 		day1.Run()
+	case "day-2":
+		day2.Run()
 	default:
 		log.Fatal("Please provide a valid day arg. Ex: day-1")
 	}
